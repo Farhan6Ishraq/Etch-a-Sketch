@@ -18,18 +18,37 @@ body {
     line-height: 1.5rem;
     border: 1px solid green;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: azure;
 }
 
 img {
     max-width: 100%;
 }
 
+button {
+    width: 100px;
+    height: 2rem;
+    font-size: 1rem;
+    background-color: hsl(198, 56%, 49%);
+    border-radius: 0.5rem;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: black;
+}
+
 .grid {
-    border: 1px solid red;
+    margin: 2rem;
+    border-radius: 0.8rem;
+    border: 3px solid black;
     width: 600px;
     height: 600px;
     display: grid;
-    grid-template-columns: repeat(16, auto);
+    /* grid-template-columns: repeat(64, auto); */
 }
+
